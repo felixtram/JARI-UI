@@ -15150,6 +15150,12 @@ document.getElementById("Net").disabled = true;
     (0, _jquery2.default)("#progress-1 a").addClass("done");
     (0, _jquery2.default)("#progress-1").addClass("done");
 
+    (0, _jquery2.default)("#progress-1 i").removeClass("current");
+    (0, _jquery2.default)("#progress-1").removeClass("current");
+
+    (0, _jquery2.default)("#progress-2 a").addClass("current");
+    (0, _jquery2.default)("#progress-2").addClass("current");
+
     (0, _jquery2.default)("#configuration-information").hide("slow");
     (0, _jquery2.default)("#namespace-information").show("slow");
 
@@ -15169,6 +15175,9 @@ document.getElementById("Net").disabled = true;
     (0, _jquery2.default)("#progress-2 i").addClass("done");
     (0, _jquery2.default)("#progress-2").addClass("done");
 
+    (0, _jquery2.default)("#progress-3 a").addClass("current");
+    (0, _jquery2.default)("#progress-3").addClass("current");
+
     (0, _jquery2.default)("#configuration-information").show("slow");
 
     formInformation.productFamily = (0, _jquery2.default)('input[name=type]:checked', '#namespace').val();
@@ -15184,6 +15193,9 @@ document.getElementById("Net").disabled = true;
     (0, _jquery2.default)("#progress-3 i").addClass("done");
     (0, _jquery2.default)("#progress-3").addClass("done");
 
+    (0, _jquery2.default)("#progress-4 a").addClass("current");
+    (0, _jquery2.default)("#progress-4").addClass("current");
+
     (0, _jquery2.default)("#start-information").show("slow");
   });
 });
@@ -15194,6 +15206,12 @@ document.getElementById("Net").disabled = true;
     (0, _jquery2.default)("#namespace-information").show("slow");
     (0, _jquery2.default)("#progress-2 i").removeClass("done");
     (0, _jquery2.default)("#progress-2").removeClass("done");
+
+    (0, _jquery2.default)("#progress-2 a").addClass("current");
+    (0, _jquery2.default)("#progress-2").addClass("current");
+
+    (0, _jquery2.default)("#progress-3 a").removeClass("current");
+    (0, _jquery2.default)("#progress-3").removeClass("current");
   });
 });
 
@@ -15203,6 +15221,12 @@ document.getElementById("Net").disabled = true;
 
     (0, _jquery2.default)("#progress-1 i").removeClass("done");
     (0, _jquery2.default)("#progress-1").removeClass("done");
+
+    (0, _jquery2.default)("#progress-1 a").addClass("current");
+    (0, _jquery2.default)("#progress-1").addClass("current");
+
+    (0, _jquery2.default)("#progress-2 a").removeClass("current");
+    (0, _jquery2.default)("#progress-2").removeClass("current");
   });
 });
 
@@ -15212,6 +15236,12 @@ document.getElementById("Net").disabled = true;
 
     (0, _jquery2.default)("#progress-3 i").removeClass("done");
     (0, _jquery2.default)("#progress-3").removeClass("done");
+
+    (0, _jquery2.default)("#progress-3 a").addClass("current");
+    (0, _jquery2.default)("#progress-3").addClass("current");
+
+    (0, _jquery2.default)("#progress-4 a").removeClass("current");
+    (0, _jquery2.default)("#progress-4").removeClass("current");
   });
 });
 
